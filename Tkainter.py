@@ -22,3 +22,9 @@ x = (root.winfo_screenwidth() - lebar) // 2
 y = (root.winfo_screenheight() - tinggi) // 2
 root.geometry(f"{lebar}x{tinggi}+{x}+{y}")
  
+ # ---------- Label judul ----------
+label_judul = tk.Label(
+    root, text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Arial", 18, "bold"), fg="#1a4f8b",
+)
+label_judul.pack(pady=(20, 10))
