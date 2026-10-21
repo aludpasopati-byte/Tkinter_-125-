@@ -48,3 +48,6 @@ for i, mapel in enumerate(MAPEL):
     root, text="Tampilkan Hasil Prediksi", command=prediksi,
     font=("Arial", 12, "bold"), bg="#1a4f8b", fg="white",
     activebackground="#143c6a", activeforeground="white",
+     padx=15, pady=6,
+)
+tombol.pack(pady=15)
