@@ -43,3 +43,6 @@ for i, mapel in enumerate(MAPEL):
              e = ttk.Entry(frame_input, width=8, justify="center")
     e.grid(row=baris, column=kolom + 1, padx=(2, 15), pady=6)
     entries.append(e)
+
+    tombol = tk.Button(
+    root, text="Tampilkan Hasil Prediksi", command=prediksi,
