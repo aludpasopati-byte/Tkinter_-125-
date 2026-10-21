@@ -55,3 +55,5 @@ tombol.pack(pady=15)
 # ---------- Label luaran hasil prediksi ----------
 tk.Label(root, text="Hasil Prediksi:", font=("Arial", 11)).pack()
 label_hasil = tk.Label(
+     root, text="-", font=("Arial", 16, "bold"), fg="#1b7a3d",
+    relief="groove", width=30, pady=8,
