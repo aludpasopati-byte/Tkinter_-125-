@@ -46,3 +46,5 @@ for i, mapel in enumerate(MAPEL):
 
     tombol = tk.Button(
     root, text="Tampilkan Hasil Prediksi", command=prediksi,
+    font=("Arial", 12, "bold"), bg="#1a4f8b", fg="white",
+    activebackground="#143c6a", activeforeground="white",
