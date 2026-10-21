@@ -32,3 +32,9 @@ label_judul.pack(pady=(20, 10))
 frame_input = tk.LabelFrame(root, text=" Masukkan Nilai Mata Pelajaran ",
                             font=("Arial", 11), padx=15, pady=10)
 frame_input.pack(padx=20, pady=10)
+
+
+entries = []
+for i, mapel in enumerate(MAPEL):
+    baris = i % 5
+    kolom = (i // 5) * 2  # kolom 0-1 dan 2-3
