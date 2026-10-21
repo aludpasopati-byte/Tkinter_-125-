@@ -1,4 +1,4 @@
-def prediksi():
-    """Menampilkan prodi Teknologi Informasi apapun masukan yang diberikan."""
-    label_hasil.config(text="Teknologi Informasi")
+root = tk.Tk()
+root.title("Aplikasi Prediksi Prodi Pilihan")
+root.resizable(False, False)
  

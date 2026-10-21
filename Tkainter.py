@@ -10,4 +10,9 @@ MAPEL = [
 def prediksi():
     """Menampilkan prodi Teknologi Informasi apapun masukan yang diberikan."""
     label_hasil.config(text="Teknologi Informasi")
+
+    # ---------- Jendela utama ----------
+root = tk.Tk()
+root.title("Aplikasi Prediksi Prodi Pilihan")
+root.resizable(False, False)
  
