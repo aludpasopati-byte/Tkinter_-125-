@@ -51,3 +51,7 @@ for i, mapel in enumerate(MAPEL):
      padx=15, pady=6,
 )
 tombol.pack(pady=15)
+
+# ---------- Label luaran hasil prediksi ----------
+tk.Label(root, text="Hasil Prediksi:", font=("Arial", 11)).pack()
+label_hasil = tk.Label(
