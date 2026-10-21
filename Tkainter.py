@@ -40,3 +40,6 @@ for i, mapel in enumerate(MAPEL):
     kolom = (i // 5) * 2  # kolom 0-1 dan 2-3
     tk.Label(frame_input, text=mapel, font=("Arial", 10), anchor="w",
              width=16).grid(row=baris, column=kolom, padx=(5, 2), pady=6, sticky="w")
+             e = ttk.Entry(frame_input, width=8, justify="center")
+    e.grid(row=baris, column=kolom + 1, padx=(2, 15), pady=6)
+    entries.append(e)
