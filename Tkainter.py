@@ -38,3 +38,5 @@ entries = []
 for i, mapel in enumerate(MAPEL):
     baris = i % 5
     kolom = (i // 5) * 2  # kolom 0-1 dan 2-3
+    tk.Label(frame_input, text=mapel, font=("Arial", 10), anchor="w",
+             width=16).grid(row=baris, column=kolom, padx=(5, 2), pady=6, sticky="w")
